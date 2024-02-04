@@ -1,9 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import $ from 'jquery';
 
 function Home() {
 
-    useEffect(() => {
+
+    
+
+    $(document).ready(function(){
         $('.owl-carousel').owlCarousel({
             loop:true,
             margin:20,
@@ -20,22 +23,22 @@ function Home() {
                     items:6
                 }
             }
-        });
-      }, []);
-
+        })
+    });
+    
   return (
     <>
 
     
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossOrigin="anonymous"/>
     
     {/* <!-- fontawsom cdn --> */}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
     <title>Document</title>
 
     {/* <!-- ovel carosel CDN   --> */}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
 
     {/* <!-- Headder --> */}
     
@@ -58,7 +61,7 @@ function Home() {
                         <i className="fa-solid fa-user"></i>
                         Login
                     </button>
-                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1" style={{"box-shadow: .1px .5px 11px black; border: none;"}}>
+                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1" style={{boxShadow: "1px .5px 11px black", border: "none"}}>
                       <li><a className="dropdown-item" href="#">Action</a></li>
                       <li><a className="dropdown-item" href="#">Another action</a></li>
                       <li><a className="dropdown-item" href="#">Something else here</a></li>
@@ -144,19 +147,19 @@ function Home() {
             TeliPhone <br/> <h6>from $390</h6>
         </div>
         <div className="item card" >
-            <img src="IMG/E8.png" style={{"width: 9rem;"}} className="card-body" alt=""/>
+            <img src="IMG/E8.png" style={{width: "9rem"}} className="card-body" alt=""/>
             HD Monitor <br/> <h6>from $1499</h6>
         </div>
         <div className="item card" >
-            <img src="IMG/E9.png" style={{"width: 9rem;"}} className="card-body" alt=""/>
+            <img src="IMG/E9.png" style={{width: "9rem"}} className="card-body" alt=""/>
             Cannon H46 <br/> <h6>from $989</h6>
         </div>
         <div className="item card" >
-            <img src="IMG/E10.jpg" style={{"width: 8rem;" }}className="card-body" alt=""/>
+            <img src="IMG/E10.jpg" style={{width: "8rem" }}className="card-body" alt=""/>
             Shaver <br/> <h6>from $490</h6>
         </div>
         <div className="item card" >
-            <img src="IMG/E11.jpg" style={{"width: 9rem;"}} className="card-body" alt=""/>
+            <img src="IMG/E11.jpg" style={{width: "9rem"}} className="card-body" alt=""/>
             Memory Drive <br/> <h6>from $567</h6>
         </div>
     </div>
@@ -168,39 +171,39 @@ function Home() {
          <h4>Beautym,Food,Toys & more</h4>
       <div className="owl-carousel owl-theme pt-3 text-center ">
         <div className="item card  alighn-item-center">
-            <img src="IMG/F9.jpg" style={{"padding: 1.9rem 0;"}} className="card-img-top" alt=""/>
+            <img src="IMG/F9.jpg" style={{padding: "1.9rem 0"}} className="card-img-top" alt=""/>
             Headphone <br/> <h6>$99</h6>  
         </div>
         <div className="item card">
-            <img src="IMG/F11.jpg" style={{width: "12rem;" padding-bottom: "4rem;" }} className="card-body" alt=""/>
+            <img src="IMG/F11.jpg" style={{width: "12rem", paddingBottom: "4rem" }} className="card-body" alt=""/>
             Beauty Products <br/> <h6>$250</h6>
         </div>
-        <div className="item card" style={{overflow: "hidden;"}}>
-            <img src="IMG/F8.webp"  style={{padding: "2rem 0;"}} className="card-body" alt=""/>
+        <div className="item card" style={{overflow: "hidden"}}>
+            <img src="IMG/F8.webp"  style={{padding: "2rem 0"}} className="card-body" alt=""/>
             Vegitable <br/> <h6>$130</h6>
         </div>
         <div className="item card">
-            <img src="IMG/F4.jpg" style={{padding: "2.1rem 0;"}} className="card-body" alt=""/>
+            <img src="IMG/F4.jpg" style={{padding: "2.1rem 0"}} className="card-body" alt=""/>
              Cycle <br/> <h6>$499</h6>
         </div>
         <div className="item card">
-            <img src="IMG/F5.jpg" style={{padding: "2rem 0;"}} className=" card-body" alt=""/>
+            <img src="IMG/F5.jpg" style={{padding: "2rem 0"}} className=" card-body" alt=""/>
             Apples <br/> <h6>100</h6>
         </div>
         <div className="item card">
-            <img src="IMG/F6.jpg" style={{padding: "2rem 0;"}} className="card-body" alt=""/>
+            <img src="IMG/F6.jpg" style={{padding: "2rem 0"}} className="card-body" alt=""/>
             Guitar <br/> <h6>from $1200</h6>
         </div>
         <div className="item card">
-            <img src="IMG/F7.jpg" style="padding: 2.2rem 0;" className="card-body" alt=""/>
+            <img src="IMG/F7.jpg" style={{padding: "2.2rem 0"}} className="card-body" alt=""/>
             Teddy Bear <br/> <h6>from $87</h6>
         </div>
-        <div className="item card" style="overflow: hidden;" >
-            <img src="IMG/F3.jpg" style="width: 13.6rem; " className="card-body" alt=""/>
+        <div className="item card" style={{overflow: "hidden"}} >
+            <img src="IMG/F3.jpg" style={{width: "13.6rem "}} className="card-body" alt=""/>
             Pen and Books <br/> <h6>from $340</h6>
         </div>
         <div className="item card" >
-            <img src="IMG/F2.jpg" style="padding: 0rem 0;" className="card-body" alt=""/>
+            <img src="IMG/F2.jpg"  className="card-body" alt=""/>
             Nescafe <br/> <h6>from $89</h6>
         </div>
         <div className="item card" >
@@ -208,7 +211,7 @@ function Home() {
             Dry fruits <br/> <h6>from $190</h6>
         </div>
         <div className="item card" >
-            <img src="IMG/F10.jpg" style="padding: 2rem 0;" className="card-body" alt=""/>
+            <img src="IMG/F10.jpg" style={{padding: "2rem 0"}} className="card-body" alt=""/>
             Childern Toys <br/> <h6>from $330</h6>
         </div>
     </div>
@@ -220,39 +223,39 @@ function Home() {
         <h4>Sports, Healthcare & more </h4>
      <div className="owl-carousel owl-theme pt-3 text-center ">
        <div className="item card  alighn-item-center">
-           <img src="IMG/G13.jpg" style="padding: 1.5rem 0;" className="card-img-top" alt=""/>
+           <img src="IMG/G13.jpg" style={{padding: "1.5rem 0"}} className="card-img-top" alt=""/>
            8Kg Orange Dumbells  <br/> <h6>$50</h6>  
        </div>
        <div className="item card">
-           <img src="IMG/G1.jpg" style="width: 15rem; padding: 1rem 0px  ;" className="card-body" alt=""/>
+           <img src="IMG/G1.jpg" style={{width: "15rem", padding: "1rem 0px "}} className="card-body" alt=""/>
            Yoga Carpet <br/> <h6>$69</h6>
        </div>
-       <div className="item card" style="overflow: hidden;">
-           <img src="IMG/G3.jpg" style="padding: 1.5rem 0; " className="card-body" alt=""/>
+       <div className="item card" style={{overflow: "hidden"}}>
+           <img src="IMG/G3.jpg" style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
            Drinking bottle <br/> <h6>$59</h6>
        </div>
        <div className="item card">
-           <img src="IMG/G4.jpg" style="padding: 1.5rem 0;" className="card-body" alt=""/>
+           <img src="IMG/G4.jpg" style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
             Sport T-Shirt <br/> <h6>$249</h6>
        </div>
        <div className="item card">
-           <img src="IMG/G5.jpg" style="padding: 1.5rem 0;" className=" card-body" alt=""/>
+           <img src="IMG/G5.jpg" style={{padding: "1.5rem 0"}} className=" card-body" alt=""/>
            Supliment Bottle <br/> <h6>from $110</h6>
        </div>
        <div className="item card">
-           <img src="IMG/G6.jpg" style="padding: 2.2rem 0;" className="card-body" alt=""/>
+           <img src="IMG/G6.jpg" style={{padding: "2.2rem 0"}} className="card-body" alt=""/>
            Masage Products <br/> <h6>from $549</h6>
        </div>
        <div className="item card">
-           <img src="IMG/G7.jpg" style="padding: 2.9rem 0;" className="card-body" alt=""/>
+           <img src="IMG/G7.jpg" style={{padding: "2.9rem 0"}} className="card-body" alt=""/>
            Vitamin pills <br/> <h6>from $37</h6>
        </div>
        <div className="item card" >
-           <img src="IMG/G8.jpg" style="width: 10rem;" className="card-body" alt=""/>
+           <img src="IMG/G8.jpg" style={{width: "10rem"}} className="card-body" alt=""/>
           G-Chomanbrash <br/> <h6>from $80</h6>
        </div>
        <div className="item card" >
-           <img src="IMG/G9.jpg" style="padding: .4rem 0;" className="card-body" alt=""/>
+           <img src="IMG/G9.jpg" style={{padding: ".4rem 0"}} className="card-body" alt=""/>
            Energy Pills <br/> <h6>from $989</h6>
        </div>
        <div className="item card" >
@@ -260,7 +263,7 @@ function Home() {
            Mackup Products <br/> <h6>from $100</h6>
        </div>
        <div className="item card" >
-           <img src="IMG/G11.jpg" style="padding: 2rem 0;" className="card-body" alt=""/>
+           <img src="IMG/G11.jpg" style={{padding: "2rem 0"}} className="card-body" alt=""/>
            Black Dumbells <br/> <h6>from $450</h6>
        </div>
     </div>
@@ -337,7 +340,7 @@ function Home() {
                 </div>
             </div>
             <div className="col-md-4 " >
-                <div className="" style="background-image:url('IMG/H10.jpg'); background-size: cover;  padding: 8.5rem 3rem;" >
+                <div className="" style={{backgroundImage:"url('IMG/H10.jpg')", backgroundSize: "cover" ,padding: "8.5rem 3rem"}} >
                     <h1 className="text-light">Shop Your  <br/> fashion Needs</h1>
                     <p>with latest & <br/> Trending choices</p>
                     <div className="btn btn-primary">Shop</div>
@@ -353,48 +356,48 @@ function Home() {
      <div className="owl-carousel owl-theme pt-3 text-center ">
        
         <div className="item card ">
-           <img src="IMG/L11.jpg" style="padding: 1.5rem 0;" className="card-img-top" alt=""/>
+           <img src="IMG/L11.jpg" style={{padding: "1.5rem 0"}} className="card-img-top" alt=""/>
            Ladies sandle <br/> <h6>from $230</h6>  
        </div>
        
        <div className="item card">
-           <img src="IMG/L8.jpg" style=" padding: 1.5rem 0px  ;" className="card-body" alt=""/>
+           <img src="IMG/L8.jpg" style={{padding: "1.5rem 0px"}} className="card-body" alt=""/>
            Cool bagpack <br/> <h6>from $69</h6>
        </div>
        <div className="item card" >
-           <img src="IMG/L1.jpg" style="width: 7.8rem; margin: 0 auto ;" className="card-body " alt=""/>
+           <img src="IMG/L1.jpg" style={{width: "7.8rem", margin:" 0 auto " }}className="card-body " alt=""/>
            Zara Pant <br/> <h6>from $450</h6>
        </div>
        <div className="item card">
-           <img src="IMG/L2.jpg" style="padding: 1.4rem 0;" className="card-body" alt=""/>
+           <img src="IMG/L2.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
            red long dress<br/> <h6>from $649</h6>
        </div>
        <div className="item card">
-           <img src="IMG/L3.jpg" style="padding: .5rem 0;" className=" card-body" alt=""/>
+           <img src="IMG/L3.jpg" style={{padding: ".5rem 0"}} className=" card-body" alt=""/>
            Red flawer Dress <br/> <h6>from $910</h6>
        </div>
        <div className="item card">
-           <img src="IMG/L5.jpg" style="padding:1.4rem 0;" className="card-body" alt=""/>
+           <img src="IMG/L5.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
           Sun Shine Jewelry<br/> <h6>from $1999</h6>
        </div>
        <div className="item card">
-           <img src="IMG/L4.jpg" style="padding: 1.4rem 0;" className="card-body" alt=""/>
+           <img src="IMG/L4.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
             Pearl <br/> <h6>from $8999</h6>
        </div>
        <div className="item card" >
-           <img src="IMG/L6.webp" style="padding: 2rem 0;" className="card-body" alt=""/>
+           <img src="IMG/L6.webp" style={{padding: "2rem 0"}} className="card-body" alt=""/>
           Suraksha piece <br/> <h6>from $99</h6>
        </div>
        <div className="item card" >
-           <img src="IMG/L7.jpg" style="padding: 1.4rem 0;" className="card-body" alt=""/>
+           <img src="IMG/L7.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
             Jagwar Jeans <br/> <h6>from $499</h6>
        </div>
        <div className="item card" >
-           <img src="IMG/L0.jpg" style="padding: 1.4rem 0;" className="card-body" alt=""/>
+           <img src="IMG/L0.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
            High Heals <br/> <h6>from $699</h6>
        </div>
        <div className="item card" >
-           <img src="IMG/L9.jpg" style="padding: 2rem 0;" className="card-body" alt=""/>
+           <img src="IMG/L9.jpg" style={{padding: "2rem 0"}} className="card-body" alt=""/>
            Pinky Heals <br/> <h6>from $458</h6>
        </div>
       
@@ -407,47 +410,47 @@ function Home() {
      <div className="owl-carousel owl-theme pt-3 text-center ">
        
         <div className="item card ">
-           <img src="IMG/T1.jpg" style="padding: 1.5rem 0;" className="card-img-top" alt=""/>
+           <img src="IMG/T1.jpg" style={{padding: "1.5rem 0"}} className="card-img-top" alt=""/>
            Dining Table <br/> <h6>from $1650</h6>  
        </div>
        <div className="item card">
-           <img src="IMG/T2.jpg" style=" padding: 1.5rem 0px  ;" className="card-body" alt=""/>
+           <img src="IMG/T2.jpg" style={{padding: "1.5rem 0px"}} className="card-body" alt=""/>
            Soofaa & Smooth Chair <br/> <h6>from $1200</h6>
        </div>
        <div className="item card" >
-           <img src="IMG/T3.jpg" style=" padding: 1.4rem 0px  " className="card-body " alt=""/>
+           <img src="IMG/T3.jpg" style={{padding: "1.4rem 0px"}} className="card-body " alt=""/>
              Kabad <br/> <h6>from $1450</h6>
        </div>
        <div className="item card">
-           <img src="IMG/T4.jpg" style="padding: 1.4rem 0;" className="card-body" alt=""/>
+           <img src="IMG/T4.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
             Formale Chair <br/> <h6>from $499</h6>
        </div>
        <div className="item card">
-           <img src="IMG/T5.jpg" style="width: 10.7rem;" className=" card-body" alt=""/>
+           <img src="IMG/T5.jpg" style={{width: "10.7rem"}} className=" card-body" alt=""/>
            Soft Sofa <br/> <h6>from $1910</h6>
        </div>
        <div className="item card">
-           <img src="IMG/T6.jpg" style="width: 10.7rem;" className="card-body" alt=""/>
+           <img src="IMG/T6.jpg" style={{width: "10.7rem"}} className="card-body" alt=""/>
           Rotating Chair<br/> <h6>from $1499</h6>
        </div>
        <div className="item card">
-           <img src="IMG/T8.jpg" style="padding: 1rem 0;" className="card-body" alt=""/>
+           <img src="IMG/T8.jpg" style={{padding: "1rem 0"}} className="card-body" alt=""/>
             Fancy Sofa <br/> <h6>from $1999</h6>
        </div>
        <div className="item card" >
-           <img src="IMG/T7.jpg" style="padding: 1.4rem 0;" className="card-body" alt=""/>
+           <img src="IMG/T7.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
           Office Counter <br/> <h6>from $1599</h6>
        </div>
        <div className="item card" >
-           <img src="IMG/T0.jpg" style="padding: 1.4rem 0;" className="card-body" alt=""/>
+           <img src="IMG/T0.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
             dubble Bed  <br/> <h6>from $1499</h6>
        </div>
        <div className="item card" >
-           <img src="IMG/T11.jpg" style="padding: 1.5rem 0;" className="card-body" alt=""/>
+           <img src="IMG/T11.jpg" style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
             Single Bed<br/> <h6>from $1099</h6>
        </div>
        <div className="item card" >
-           <img src="IMG/T12.jpg" style="padding: 1.5rem 0;" className="card-body" alt=""/>
+           <img src="IMG/T12.jpg" style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
            Somooth Pillow <br/> <h6>from $458</h6>
        </div>
       
@@ -528,9 +531,9 @@ function Home() {
                 </div>
             </div>
             <div className="col-md-4 col-12 " >
-                <div className="" style="background-image:url('IMG/S0.jpg'); padding: 12rem 4rem; background-size: auto;" >
+                <div className="" style={{backgroundImage:"url('IMG/S0.jpg')", padding: "12rem 4rem", backgroundSize: "auto"}} >
                     <h1>Shop Your  <br/> fashion Needs</h1>
-                    <p style='color:rgb(5, 5, 5)' >with latest & <br/> Trending choices</p>
+                    <p style={{color:"rgb(5, 5, 5)"}} >with latest & <br/> Trending choices</p>
                     <div className="btn btn-primary">Shop</div>
                 </div>
     
@@ -570,7 +573,7 @@ function Home() {
     <div className="container-fluide bg-dark text-light p-5" >
         <div className="row">
             <div className="col-md-2 col-6">
-                <p className="p" style="color: rgb(148, 99, 36);">ABOUT</p>
+                <p className="p" style={{color: "rgb(148, 99, 36)"}}>ABOUT</p>
                 <br/>
                 <div className='h6'>Contact Us</div>
                 <div className='h6'>About Us</div>
@@ -582,7 +585,7 @@ function Home() {
                 <div className='h6'>Corporate Information</div>
             </div>
             <div className="col-md-2 col-6">
-                <p style="color: rgb(148, 99, 36);">HELP</p>
+                <p style={{color: "rgb(148, 99, 36)"}}>HELP</p>
                 <br/>
                 <div className='h6'>Payments</div>
                 <div className='h6'>Shipping</div>
@@ -592,7 +595,7 @@ function Home() {
                 <div className='h6'>Report Infringement</div>
             </div>
             <div className="col-md-2 col-6">
-                <div  style="color: rgb(148, 99, 36);">CONSUMER POLICY</div>
+                <div  style={{color: "rgb(148, 99, 36)"}}>CONSUMER POLICY</div>
                 <br/>
                 <div className='h6'>Cancollection &</div>
                 <div className='h6'>Returns</div>
@@ -604,21 +607,21 @@ function Home() {
                 <div className='h6'>EPR Compliance </div>
             </div>
             <div className="col-md-2 col-6">
-                <div className="p" style="color: rgb(148, 99, 36);">SOCIAL</div>
+                <div className="p" style={{color: "rgb(148, 99, 36)"}}>SOCIAL</div>
                 <br/>
                 <div className="h6">Facebook</div>
                 <div className="h6">Twitter</div>
                 <div className="h6">YouTube</div>
             </div>
-            <div className="col-md-2 col-12" style="border-left: 1px solid rgba(255, 255, 255, 0.274);">
-                <div className="p" style="color: rgb(148, 99, 36);">Mail Us:</div>
+            <div className="col-md-2 col-12" style={{borderLeft: "1px solid rgba(255, 255, 255, 0.274)"}}>
+                <div className="p" style={{color: "rgb(148, 99, 36)"}}>Mail Us:</div>
                 <br/>
                 <div className="h6">Flipkart Internet Private Limited,
                     Buildings Alyssa, Begonia & Clove Embassy Tech Village, Karnataka, India Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103,
                     Karnataka, India </div>
             </div>
             <div className="col-md-2 col-12">
-                <div className="p" style="color: rgb(148, 99, 36);">Registered Office Address</div>
+                <div className="p" style={{color: "rgb(148, 99, 36)"}}>Registered Office Address</div>
                 <br/>
                 <div className="h6">Flipkart Internet Private Limited,
                     Buildings Alyssa, Begonia & Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103, Karnataka, India
@@ -627,7 +630,7 @@ function Home() {
         </div>
     </div>
     
-    <div className="container-fluide ps-4 pt-1 bg-dark text-light" style="font-size: 80%; border-top: 1px solid rgba(255, 255, 255, 0.274);">
+    <div className="container-fluide ps-4 pt-1 bg-dark text-light" style={{fontSize: "80%", borderTop: "1px solid rgba(255, 255, 255, 0.274)"}}>
         <div className="row">
             <div className="col-md-2 col-4 ">
                 <p>Become a Seller</p>
@@ -654,14 +657,13 @@ function Home() {
   
 
     {/* <!-- ovel carosel CDN  --> */}
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
- 
-     
-     
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"/>
-     
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossOrigin="anonymous" referrerPolicy="no-referrer"/>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossOrigin="anonymous" referrerPolicy="no-referrer"/>
+
+
+<script src="path/to/jquery.min.js"></script>
+<script src="path/to/owl.carousel.min.js"></script>
+<script src="path/to/your/custom-script.js"></script>
 
     </>
   ) 
