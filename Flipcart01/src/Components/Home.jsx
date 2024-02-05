@@ -1,5 +1,17 @@
 import React from 'react';
 
+import E1 from './IMG/E1.jpg'
+import E2 from './IMG/E2.jpg'
+import E3 from './IMG/E3.jpg'
+import E4 from './IMG/E4.jpg'
+import E5 from './IMG/E5.jpg'
+import E6 from './IMG/E6.jpg'
+import E7 from './IMG/E7.jpg'
+import E8 from './IMG/E8.png'
+import E9 from './IMG/E9.png'
+import E10 from './IMG/E10.jpg'
+import E11 from './IMG/E11.jpg'
+
 export default function Home() {
 
     $('.owl-carousel').owlCarousel({
@@ -110,49 +122,49 @@ export default function Home() {
               <h4>Best of Electronics</h4>
           <div className="owl-carousel owl-theme pt-3 text-center ">
             <div className="item card">
-                <img src="IMG/E1.jpg" className="card-img-top" alt=""/>
+                <img src={E1} className="card-img-top" alt=""/>
                 Camera <br/> <h6>$899</h6>
                 
                 
             </div>
             <div className="item card">
-                <img src="IMG/E2.jpg" className="card-body" alt=""/>
+                <img src={E2} className="card-body" alt=""/>
                 Apple Monitor <br/> <h6>$1499</h6>
             </div>
             <div className="item card">
-                <img src="IMG/E3.jpg" className="card-body" alt=""/>
+                <img src={E3} className="card-body" alt=""/>
                 Apple Monitor <br/> <h6>$949</h6>
             </div>
             <div className="item card">
-                <img src="IMG/E4.jpg" className="card-body" alt=""/>
+                <img src={E4} className="card-body" alt=""/>
                  Monitor <br/> <h6>$989</h6>
             </div>
             <div className="item card">
-                <img src="IMG/E5.jpg" className=" card-body" alt=""/>
+                <img src={E5} className=" card-body" alt=""/>
                 Projector <br/> <h6>from $999</h6>
             </div>
             <div className="item card">
-                <img src="IMG/E6.jpg" className="card-body" alt=""/>
+                <img src={E6} className="card-body" alt=""/>
                 Scanner <br/> <h6>from $1300</h6>
             </div>
             <div className="item card">
-                <img src="IMG/E7.jpg" className="card-body" alt=""/>
+                <img src={E7} className="card-body" alt=""/>
                 TeliPhone <br/> <h6>from $390</h6>
             </div>
             <div className="item card" >
-                <img src="IMG/E8.png" style={{width: "9rem"}} className="card-body" alt=""/>
+                <img src={E8} style={{width: "9rem"}} className="card-body" alt=""/>
                 HD Monitor <br/> <h6>from $1499</h6>
             </div>
             <div className="item card" >
-                <img src="IMG/E9.png" style={{width: "9rem"}} className="card-body" alt=""/>
+                <img src={E9} style={{width: "9rem"}} className="card-body" alt=""/>
                 Cannon H46 <br/> <h6>from $989</h6>
             </div>
             <div className="item card" >
-                <img src="IMG/E10.jpg" style={{width: "8rem" }}className="card-body" alt=""/>
+                <img src={E10} style={{width: "8rem" }}className="card-body" alt=""/>
                 Shaver <br/> <h6>from $490</h6>
             </div>
             <div className="item card" >
-                <img src="IMG/E11.jpg" style={{width: "9rem"}} className="card-body" alt=""/>
+                <img src={E11} style={{width: "9rem"}} className="card-body" alt=""/>
                 Memory Drive <br/> <h6>from $567</h6>
             </div>
         </div>
