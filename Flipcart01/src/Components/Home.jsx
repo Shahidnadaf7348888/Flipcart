@@ -25,6 +25,68 @@ import F9 from './IMG/F9.jpg'
 import F10 from './IMG/F10.jpg'
 import F11 from './IMG/F11.jpg'
 
+// G Section 
+import G1 from './IMG/G1.jpg'
+// import G2 from './IMG/G2.jpg'
+import G3 from './IMG/G3.jpg'
+import G4 from './IMG/G4.jpg'
+import G5 from './IMG/G5.jpg'
+import G6 from './IMG/G6.jpg'
+import G7 from './IMG/G7.jpg'
+import G8 from './IMG/G8.jpg'
+import G9 from './IMG/G9.jpg'
+import G10 from './IMG/G10.jpg'
+import G11 from './IMG/G11.jpg'
+import G13 from './IMG/G13.jpg'
+
+// H Section 
+
+import H1 from './IMG/H1.jpg'
+import H2 from './IMG/H2.jpg'
+import H3 from './IMG/H3.jpg'
+import H4 from './IMG/H4.jpg'
+import H5 from './IMG/H5.jpg'
+import H6 from './IMG/H6.jpg'
+import H8 from './IMG/H8.jpg'
+import H9 from './IMG/H9.jpg'
+
+// "IMG/L section
+import L0 from './IMG/L0.jpg'
+import L1 from './IMG/L1.jpg'
+import L2 from './IMG/L2.jpg'
+import L3 from './IMG/L3.jpg'
+import L4 from './IMG/L4.jpg'
+import L5 from './IMG/L5.jpg'
+import L7 from './IMG/L7.jpg'
+import L8 from './IMG/L8.jpg'
+import L9 from './IMG/L9.jpg'
+import L11 from './IMG/L11.jpg'
+
+
+// "IMG/T section
+import T0 from './IMG/T0.jpg'
+import T1 from './IMG/T1.jpg'
+import T2 from './IMG/T2.jpg'
+import T3 from './IMG/T3.jpg'
+import T4 from './IMG/T4.jpg'
+import T5 from './IMG/T5.jpg'
+import T6 from './IMG/T6.jpg'
+import T7 from './IMG/T7.jpg'
+import T8 from './IMG/T8.jpg'
+import T11 from './IMG/T11.jpg'
+import T12 from './IMG/T12.jpg'
+
+// "IMG/S section
+import S1 from './IMG/S1.jpg'
+import S2 from './IMG/S2.jpg'
+import S3 from './IMG/S3.jpg'
+import S4 from './IMG/S4.jpg'
+import S5 from './IMG/S5.jpg'
+import S6 from './IMG/S6.jpg'
+import S8 from './IMG/S8.jpg'
+import S9 from './IMG/S9.jpg'
+
+
 export default function Home() {
 
     $('.owl-carousel').owlCarousel({
@@ -242,47 +304,47 @@ export default function Home() {
             <h4>Sports, Healthcare & more </h4>
          <div className="owl-carousel owl-theme pt-3 text-center ">
            <div className="item card  alighn-item-center">
-               <img src="IMG/G13.jpg" style={{padding: "1.5rem 0"}} className="card-img-top" alt=""/>
+               <img src={G13} style={{padding: "1.5rem 0"}} className="card-img-top" alt=""/>
                8Kg Orange Dumbells  <br/> <h6>$50</h6>  
            </div>
            <div className="item card">
-               <img src="IMG/G1.jpg" style={{width: "15rem", padding: "1rem 0px "}} className="card-body" alt=""/>
+               <img src={G1} style={{width: "15rem", padding: "1rem 0px "}} className="card-body" alt=""/>
                Yoga Carpet <br/> <h6>$69</h6>
            </div>
            <div className="item card" style={{overflow: "hidden"}}>
-               <img src="IMG/G3.jpg" style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
+               <img src={G3} style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
                Drinking bottle <br/> <h6>$59</h6>
            </div>
            <div className="item card">
-               <img src="IMG/G4.jpg" style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
+               <img src={G4} style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
                 Sport T-Shirt <br/> <h6>$249</h6>
            </div>
            <div className="item card">
-               <img src="IMG/G5.jpg" style={{padding: "1.5rem 0"}} className=" card-body" alt=""/>
+               <img src={G5} style={{padding: "1.5rem 0"}} className=" card-body" alt=""/>
                Supliment Bottle <br/> <h6>from $110</h6>
            </div>
            <div className="item card">
-               <img src="IMG/G6.jpg" style={{padding: "2.2rem 0"}} className="card-body" alt=""/>
+               <img src={G6} style={{padding: "2.2rem 0"}} className="card-body" alt=""/>
                Masage Products <br/> <h6>from $549</h6>
            </div>
            <div className="item card">
-               <img src="IMG/G7.jpg" style={{padding: "2.9rem 0"}} className="card-body" alt=""/>
+               <img src={G7} style={{padding: "2.9rem 0"}} className="card-body" alt=""/>
                Vitamin pills <br/> <h6>from $37</h6>
            </div>
            <div className="item card" >
-               <img src="IMG/G8.jpg" style={{width: "10rem"}} className="card-body" alt=""/>
+               <img src={G8} style={{width: "10rem"}} className="card-body" alt=""/>
               G-Chomanbrash <br/> <h6>from $80</h6>
            </div>
            <div className="item card" >
-               <img src="IMG/G9.jpg" style={{padding: ".4rem 0"}} className="card-body" alt=""/>
+               <img src={G9} style={{padding: ".4rem 0"}} className="card-body" alt=""/>
                Energy Pills <br/> <h6>from $989</h6>
            </div>
            <div className="item card" >
-               <img src="IMG/G10.jpg"  className="card-body" alt=""/>
+               <img src={G10}  className="card-body" alt=""/>
                Mackup Products <br/> <h6>from $100</h6>
            </div>
            <div className="item card" >
-               <img src="IMG/G11.jpg" style={{padding: "2rem 0"}} className="card-body" alt=""/>
+               <img src={G11} style={{padding: "2rem 0"}} className="card-body" alt=""/>
                Black Dumbells <br/> <h6>from $450</h6>
            </div>
         </div>
@@ -296,28 +358,28 @@ export default function Home() {
                     <h4 className='ps-2'>Shop of Your love</h4>
                     <div className="row">
                         <div className="col-md-6 card ">
-                            <img src="IMG/H1.jpg" className="card-body" alt=""/>
+                            <img src={H1} className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Men's Sport Shows</h5>
                                 <b className="h5 text-success">Min. 70% off</b>
                             </div>
                         </div>
                         <div className="col-md-6 card">
-                            <img src="IMG/H2.jpg" className="card-body" alt=""/>
+                            <img src={H2} className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Men's Sport Shows</h5>
                                 <b className="h5 text-success">Min. 70% off</b>
                             </div>
                         </div>
                         <div className="col-md-6 card " >
-                            <img src="IMG/H3.jpg" className="card-body" alt=""/>
+                            <img src={H3} className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Men's T-shirts</h5>
                                 <b className="h5 text-success">Min. 50% off</b>
                             </div>
                         </div>
                         <div className="col-md-6 card" >
-                            <img src="IMG/H4.jpg" className="card-body" alt=""/>
+                            <img src={H4} className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Men's Sandals </h5>
                                 <b className="h5 text-success">Min. 70% off</b>
@@ -329,28 +391,28 @@ export default function Home() {
                     <h4>Home Decor & Furnishings</h4>
                     <div className="row">
                         <div className="col-md-6 card ">
-                            <img src="IMG/H5.jpg" className="card-body" alt=""/>
+                            <img src={H5} className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Wall Clocks</h5>
                                 <b className="h5 text-success">Min. 50% off</b>
                             </div>
                         </div>
                         <div className="col-md-6 card">
-                            <img src="IMG/H6.jpg" className="card-body" alt=""/>
+                            <img src={H6} className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Blankets</h5>
                                 <b className="h5 text-success">Min. 50% off</b>
                             </div>
                         </div>
                         <div className="col-md-6 card">
-                            <img src="IMG/H8.jpg" className="card-body" alt=""/>
+                            <img src={H8} className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Blubs</h5>
                                 <b className="h5 text-success">New Range</b>
                             </div>
                         </div>
                         <div className="col-md-6 card">
-                            <img src="IMG/H9.jpg" className="card-body" alt=""/>
+                            <img src={H9} className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Mats</h5>
                                 <b className="h5 text-success">Min. 50% off</b>
@@ -375,48 +437,48 @@ export default function Home() {
          <div className="owl-carousel owl-theme pt-3 text-center ">
            
             <div className="item card ">
-               <img src="IMG/L11.jpg" style={{padding: "1.5rem 0"}} className="card-img-top" alt=""/>
+               <img src={L11} style={{padding: "1.5rem 0"}} className="card-img-top" alt=""/>
                Ladies sandle <br/> <h6>from $230</h6>  
            </div>
            
            <div className="item card">
-               <img src="IMG/L8.jpg" style={{padding: "1.5rem 0px"}} className="card-body" alt=""/>
+               <img src={L8} style={{padding: "1.5rem 0px"}} className="card-body" alt=""/>
                Cool bagpack <br/> <h6>from $69</h6>
            </div>
            <div className="item card" >
-               <img src="IMG/L1.jpg" style={{width: "7.8rem", margin:" 0 auto " }}className="card-body " alt=""/>
+               <img src={L1} style={{width: "7.8rem", margin:" 0 auto " }}className="card-body " alt=""/>
                Zara Pant <br/> <h6>from $450</h6>
            </div>
            <div className="item card">
-               <img src="IMG/L2.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
+               <img src={L2} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
                red long dress<br/> <h6>from $649</h6>
            </div>
            <div className="item card">
-               <img src="IMG/L3.jpg" style={{padding: ".5rem 0"}} className=" card-body" alt=""/>
+               <img src={L3} style={{padding: ".5rem 0"}} className=" card-body" alt=""/>
                Red flawer Dress <br/> <h6>from $910</h6>
            </div>
            <div className="item card">
-               <img src="IMG/L5.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
+               <img src={L5} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
               Sun Shine Jewelry<br/> <h6>from $1999</h6>
            </div>
            <div className="item card">
-               <img src="IMG/L4.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
+               <img src={L4} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
                 Pearl <br/> <h6>from $8999</h6>
            </div>
            <div className="item card" >
-               <img src="IMG/L6.webp" style={{padding: "2rem 0"}} className="card-body" alt=""/>
-              Suraksha piece <br/> <h6>from $99</h6>
+               <img src={L9} style={{padding: "2rem 0"}} className="card-body" alt=""/>
+               short Heals <br/> <h6>from $299</h6>
            </div>
            <div className="item card" >
-               <img src="IMG/L7.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
+               <img src={L7} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
                 Jagwar Jeans <br/> <h6>from $499</h6>
            </div>
            <div className="item card" >
-               <img src="IMG/L0.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
+               <img src={L0} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
                High Heals <br/> <h6>from $699</h6>
            </div>
            <div className="item card" >
-               <img src="IMG/L9.jpg" style={{padding: "2rem 0"}} className="card-body" alt=""/>
+               <img src={L8} style={{padding: "2rem 0"}} className="card-body" alt=""/>
                Pinky Heals <br/> <h6>from $458</h6>
            </div>
           
@@ -429,47 +491,47 @@ export default function Home() {
          <div className="owl-carousel owl-theme pt-3 text-center ">
            
             <div className="item card ">
-               <img src="IMG/T1.jpg" style={{padding: "1.5rem 0"}} className="card-img-top" alt=""/>
+               <img src={T1} style={{padding: "1.5rem 0"}} className="card-img-top" alt=""/>
                Dining Table <br/> <h6>from $1650</h6>  
            </div>
            <div className="item card">
-               <img src="IMG/T2.jpg" style={{padding: "1.5rem 0px"}} className="card-body" alt=""/>
+               <img src={T2} style={{padding: "1.5rem 0px"}} className="card-body" alt=""/>
                Soofaa & Smooth Chair <br/> <h6>from $1200</h6>
            </div>
            <div className="item card" >
-               <img src="IMG/T3.jpg" style={{padding: "1.4rem 0px"}} className="card-body " alt=""/>
+               <img src={T3} style={{padding: "1.4rem 0px"}} className="card-body " alt=""/>
                  Kabad <br/> <h6>from $1450</h6>
            </div>
            <div className="item card">
-               <img src="IMG/T4.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
+               <img src={T4} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
                 Formale Chair <br/> <h6>from $499</h6>
            </div>
            <div className="item card">
-               <img src="IMG/T5.jpg" style={{width: "10.7rem"}} className=" card-body" alt=""/>
+               <img src={T5} style={{width: "10.7rem"}} className=" card-body" alt=""/>
                Soft Sofa <br/> <h6>from $1910</h6>
            </div>
            <div className="item card">
-               <img src="IMG/T6.jpg" style={{width: "10.7rem"}} className="card-body" alt=""/>
+               <img src={T6} style={{width: "10.7rem"}} className="card-body" alt=""/>
               Rotating Chair<br/> <h6>from $1499</h6>
            </div>
            <div className="item card">
-               <img src="IMG/T8.jpg" style={{padding: "1rem 0"}} className="card-body" alt=""/>
+               <img src={T8} style={{padding: "1rem 0"}} className="card-body" alt=""/>
                 Fancy Sofa <br/> <h6>from $1999</h6>
            </div>
            <div className="item card" >
-               <img src="IMG/T7.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
+               <img src={T7} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
               Office Counter <br/> <h6>from $1599</h6>
            </div>
            <div className="item card" >
-               <img src="IMG/T0.jpg" style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
+               <img src={T0} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
                 dubble Bed  <br/> <h6>from $1499</h6>
            </div>
            <div className="item card" >
-               <img src="IMG/T11.jpg" style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
+               <img src={T11} style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
                 Single Bed<br/> <h6>from $1099</h6>
            </div>
            <div className="item card" >
-               <img src="IMG/T12.jpg" style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
+               <img src={T12} style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
                Somooth Pillow <br/> <h6>from $458</h6>
            </div>
           
@@ -484,28 +546,28 @@ export default function Home() {
                     <div className='ps-2 h4'>Travel Essential Picks</div>
                     <div className="row">
                         <div className="col-md-6 card pt-4 pb-4">
-                            <img src="IMG/S5.jpg" className="card-body" alt=""/>
+                            <img src={S5} className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Torch</h5>
                                 <b className="h5 text-success">Min. 50% off</b>
                             </div>
                         </div>
                         <div className="col-md-6 card pt-4 pb-4">
-                            <img src="IMG/S6.jpg"  className="card-body" alt=""/>
+                            <img src={S6}  className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Golden Heart</h5>
                                 <b className="h5 text-success">Min. 70% off</b>
                             </div>
                         </div>
                         <div className="col-md-6 card pt-4 pb-5 " >
-                            <img src="IMG/S9.jpg" className="card-body" alt=""/>
+                            <img src={S9} className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Taitan Watch</h5>
                                 <b className="h5 text-success">Min. 50% off</b>
                             </div>
                         </div>
                         <div className="col-md-6 card pt-4 pb-4" >
-                            <img src="IMG/S8.jpg"  className="card-body" alt=""/>
+                            <img src={S8}  className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Men's Shows </h5>
                                 <b className="h5 text-success">Min. 70% off</b>
@@ -520,28 +582,28 @@ export default function Home() {
                     <div className="h4">Must-have Electronics </div>
                     <div className="row">
                         <div className="col-md-6 card ">
-                            <img src="IMG/S1.jpg"  className="card-body" alt=""/>
+                            <img src={S1}  className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Smartt Watch</h5>
                                 <b className="h5 text-success">Min. 50% off</b>
                             </div>
                         </div>
                         <div className="col-md-6 card">
-                            <img src="IMG/S2.jpg"  className="card-body" alt=""/>
+                            <img src={S2}  className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Head Phones</h5>
                                 <b className="h5 text-success">Min. 70% off</b>
                             </div>
                         </div>
                         <div className="col-md-6 card">
-                            <img src="IMG/S3.jpg" className="card-body" alt=""/>
+                            <img src={S3} className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>EarBurds</h5>
                                 <b className="h5 text-success">New Range</b>
                             </div>
                         </div>
                         <div className="col-md-6 card">
-                            <img src="IMG/S4.jpg"   className="card-body" alt=""/>
+                            <img src={S4}   className="card-body" alt=""/>
                             <div className="ps-3">
                                 <h5>Vivo Y20</h5>
                                 <b className="h5 text-success">Min. 70% off</b>
