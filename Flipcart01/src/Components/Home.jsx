@@ -12,6 +12,19 @@ import E9 from './IMG/E9.png'
 import E10 from './IMG/E10.jpg'
 import E11 from './IMG/E11.jpg'
 
+// F Section 
+import F1 from './IMG/F1.jpg'
+import F2 from './IMG/F2.jpg'
+import F3 from './IMG/F3.jpg'
+import F4 from './IMG/F4.jpg'
+import F5 from './IMG/F5.jpg'
+import F6 from './IMG/F6.jpg'
+import F7 from './IMG/f7.jpg'
+import F8 from './IMG/F8.webp'
+import F9 from './IMG/F9.jpg'
+import F10 from './IMG/F10.jpg'
+import F11 from './IMG/F11.jpg'
+
 export default function Home() {
 
     $('.owl-carousel').owlCarousel({
@@ -175,48 +188,49 @@ export default function Home() {
          <div className="container-fluide p-3 mt-4 bg-light">
              <h4>Beautym,Food,Toys & more</h4>
           <div className="owl-carousel owl-theme pt-3 text-center ">
+            
             <div className="item card  alighn-item-center">
-                <img src="IMG/F9.jpg" style={{padding: "1.9rem 0"}} className="card-img-top" alt=""/>
+                <img src={F9} style={{padding: "1.9rem 0"}} className="card-img-top" alt=""/>
                 Headphone <br/> <h6>$99</h6>  
             </div>
             <div className="item card">
-                <img src="IMG/F11.jpg" style={{width: "12rem", paddingBottom: "4rem" }} className="card-body" alt=""/>
+                <img src={F11} style={{width: "12rem", paddingBottom: "4rem" }} className="card-body" alt=""/>
                 Beauty Products <br/> <h6>$250</h6>
             </div>
             <div className="item card" style={{overflow: "hidden"}}>
-                <img src="IMG/F8.webp"  style={{padding: "2rem 0"}} className="card-body" alt=""/>
+                <img src={F8}  style={{padding: "2rem 0"}} className="card-body" alt=""/>
                 Vegitable <br/> <h6>$130</h6>
             </div>
             <div className="item card">
-                <img src="IMG/F4.jpg" style={{padding: "2.1rem 0"}} className="card-body" alt=""/>
+                <img src={F4} style={{padding: "2.1rem 0"}} className="card-body" alt=""/>
                  Cycle <br/> <h6>$499</h6>
             </div>
             <div className="item card">
-                <img src="IMG/F5.jpg" style={{padding: "2rem 0"}} className=" card-body" alt=""/>
+                <img src={F5} style={{padding: "2rem 0"}} className=" card-body" alt=""/>
                 Apples <br/> <h6>100</h6>
             </div>
             <div className="item card">
-                <img src="IMG/F6.jpg" style={{padding: "2rem 0"}} className="card-body" alt=""/>
+                <img src={F6} style={{padding: "2rem 0"}} className="card-body" alt=""/>
                 Guitar <br/> <h6>from $1200</h6>
             </div>
             <div className="item card">
-                <img src="IMG/F7.jpg" style={{padding: "2.2rem 0"}} className="card-body" alt=""/>
+                <img src={F7} style={{padding: "2.2rem 0"}} className="card-body" alt=""/>
                 Teddy Bear <br/> <h6>from $87</h6>
             </div>
             <div className="item card" style={{overflow: "hidden"}} >
-                <img src="IMG/F3.jpg" style={{width: "13.6rem "}} className="card-body" alt=""/>
+                <img src={F3} style={{width: "13.6rem "}} className="card-body" alt=""/>
                 Pen and Books <br/> <h6>from $340</h6>
             </div>
             <div className="item card" >
-                <img src="IMG/F2.jpg"  className="card-body" alt=""/>
+                <img src={F2}  className="card-body" alt=""/>
                 Nescafe <br/> <h6>from $89</h6>
             </div>
             <div className="item card" >
-                <img src="IMG/F1.jpg"  className="card-body" alt=""/>
+                <img src={F1}  className="card-body" alt=""/>
                 Dry fruits <br/> <h6>from $190</h6>
             </div>
             <div className="item card" >
-                <img src="IMG/F10.jpg" style={{padding: "2rem 0"}} className="card-body" alt=""/>
+                <img src={F10} style={{padding: "2rem 0"}} className="card-body" alt=""/>
                 Childern Toys <br/> <h6>from $330</h6>
             </div>
         </div>
