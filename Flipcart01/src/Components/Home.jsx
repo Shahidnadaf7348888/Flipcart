@@ -27,7 +27,6 @@ import F11 from './IMG/F11.jpg'
 
 // G Section 
 import G1 from './IMG/G1.jpg'
-// import G2 from './IMG/G2.jpg'
 import G3 from './IMG/G3.jpg'
 import G4 from './IMG/G4.jpg'
 import G5 from './IMG/G5.jpg'
@@ -49,6 +48,7 @@ import H5 from './IMG/H5.jpg'
 import H6 from './IMG/H6.jpg'
 import H8 from './IMG/H8.jpg'
 import H9 from './IMG/H9.jpg'
+import H10 from './IMG/H10.jpg'
 
 // "IMG/L section
 import L0 from './IMG/L0.jpg'
@@ -77,6 +77,7 @@ import T11 from './IMG/T11.jpg'
 import T12 from './IMG/T12.jpg'
 
 // "IMG/S section
+import S0 from './IMG/S0.jpg'
 import S1 from './IMG/S1.jpg'
 import S2 from './IMG/S2.jpg'
 import S3 from './IMG/S3.jpg'
@@ -350,10 +351,10 @@ export default function Home() {
         </div>
         </div>
         
+        {/* <!-- shop of Your love  --> */}
          
         <div className="container-fluide p-4 bg-light mt-3 " >
             <div className="row ">
-                {/* <!-- shop of Your love  --> */}
                 <div className="col-md-4  pt-2">
                     <h4 className='ps-2'>Shop of Your love</h4>
                     <div className="row">
@@ -421,7 +422,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="col-md-4 " >
-                    <div className="" style={{backgroundImage:"url('IMG/H10.jpg')", backgroundSize: "cover" ,padding: "8.5rem 3rem"}} >
+                    <div className="" style={{backgroundImage:`url(${H10})`, backgroundSize: "cover" ,padding: "8.5rem 3rem"}} >
                         <h1 className="text-light">Shop Your  <br/> fashion Needs</h1>
                         <p>with latest & <br/> Trending choices</p>
                         <div className="btn btn-primary">Shop</div>
@@ -612,7 +613,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="col-md-4 col-12 " >
-                    <div className="" style={{backgroundImage:"url('IMG/S0.jpg')", padding: "12rem 4rem", backgroundSize: "auto"}} >
+                    <div className="" style={{backgroundImage:`url(${S0})`, padding: "12rem 4rem", backgroundSize: "auto"}} >
                         <h1>Shop Your  <br/> fashion Needs</h1>
                         <p style={{color:"rgb(5, 5, 5)"}} >with latest & <br/> Trending choices</p>
                         <div className="btn btn-primary">Shop</div>
