@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Home from './Components/Home'
+import Man from './Components/Man'
+import Women from './Components/Women'
+
 
 
 function App() {
@@ -9,7 +11,10 @@ function App() {
 
   return (
     <>
-    <Home/>
+    {/* <Home/> */}
+    {/* <Man/> */}
+    <Women/>
+
     </>
   )
 }
