@@ -1,44 +1,5 @@
 import React from 'react';
-// Img Imports 
-import W1 from './IMG/W1.jpg'
-import W2 from './IMG/W2.jpg'
-import W3 from './IMG/W3.jpg'
-import W4 from './IMG/W4.jpg'
-import W5 from './IMG/W5.jpg'
-import W6 from './IMG/W6.jpg'
-import W7 from './IMG/W7.jpg'
-import W8 from './IMG/W8.jpg'
-import W9 from './IMG/W9.jpg'
-import W10 from './IMG/W10.jpg'
-
-import W11 from './IMG/W11.jpg'
-import W12 from './IMG/W12.jpg'
-import W13 from './IMG/W13.jpg'
-import W14 from './IMG/W14.jpg'
-import W15 from './IMG/W15.jpg'
-import W16 from './IMG/W16.jpg'
-import W17 from './IMG/W17.jpg'
-import W18 from './IMG/W18.jpg'
-import W19 from './IMG/W19.jpg'
-import W20 from './IMG/W20.jpg'
-
-import W21 from './IMG/W21.jpg'
-import W22 from './IMG/W22.jpg'
-import W23 from './IMG/W23.jpg'
-import W24 from './IMG/W24.jpg'
-import W25 from './IMG/W25.jpg'
-import W26 from './IMG/W26.jpg'
-import W27 from './IMG/W27.jpg'
-import W28 from './IMG/W28.jpg'
-import W29 from './IMG/W29.jpg'
-import W30 from './IMG/W30.jpg'
-import W31 from './IMG/W31.jpg'
-import W32 from './IMG/W32.jpg'
-import W33 from './IMG/W33.jpg'
-import W34 from './IMG/W34.jpg'
-import W35 from './IMG/W35.jpg'
-import W36 from './IMG/W36.jpg'
-
+Electronic
 
 const Women = () => {
   return (
