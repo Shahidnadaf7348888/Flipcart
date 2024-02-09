@@ -2,6 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import KidImg from './IMG/KidImg.png'
+import Girlmg from './IMG/GirlImg.png'
+import Table from './IMG/Table.png'
 
 const Header = () => {
   return (
@@ -52,34 +54,34 @@ const Header = () => {
     </div>
 </div>
  
-    <div className="container-fluid text-center"  style={{backgroundColor : '#AF876D  '}}>
+    <div className="container-fluid text-center"  style={{backgroundColor : '#147FEA  '}}>
       <div className="row">
         <div className="col-md-2 col-2">
           
-          <NavLink to="" className={({isActive})=> `${isActive ? 'text-dark' : 'text-light'} h5 `} style={{textDecoration : 'none'}}> Home</NavLink>
+          <NavLink to="" className={({isActive})=> `${isActive ? 'text-dark' : 'text-light'} p `} style={{textDecoration : 'none'}}> Home</NavLink>
           <i class="fa-solid fa-house-chimney p-1" style={{fontSize: "1.5rem"}}></i>
           
         </div>
         <div className="col-md-2 col-2">
           
-          <NavLink to="/Kids" className={({isActive})=> `${isActive ? 'text-dark' : 'text-light'} h5 `} style={{textDecoration : 'none'}}> Kids</NavLink>
+          <NavLink to="/Kids" className={({isActive})=> `${isActive ? 'text-dark' : 'text-light'} p `} style={{textDecoration : 'none'}}> Kids</NavLink>
           <img src={KidImg} alt="" style={{width : "15%"}}/>
           
         </div>
         <div className="col-md-2 col-2">
 
-          <NavLink to="/mens" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} h5 `} style={{textDecoration : 'none'}}>Man's</NavLink>
-
+          <NavLink to="/mens" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} p `} style={{textDecoration : 'none'}}>Man's</NavLink>
+          <img src='https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/da510ab4-189d-4139-3492-0295c15ea900/public' alt="" style={{width : "15%"}} />
         </div>
         <div className="col-md-2 col-2">
 
-          <NavLink to="/womens" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} h5 `} style={{textDecoration : 'none'}} >Womens</NavLink>
-
+          <NavLink to="/womens" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} p `} style={{textDecoration : 'none'}} >Womens</NavLink>
+          <img src={Girlmg} alt="" className='w-25'/>
         </div>
         <div className="col-md-2 col-2">
 
-          <NavLink to="/electronics" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} h5 `} style={{textDecoration : 'none'}}>Electrics</NavLink>
-
+          <NavLink to="/electronics" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} p `} style={{textDecoration : 'none'}}>Electrics</NavLink>
+          <img src={Table} alt="" className='w-50' />
         </div>
       </div>
     </div>
