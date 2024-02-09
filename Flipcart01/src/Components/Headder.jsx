@@ -50,19 +50,27 @@ const Header = () => {
     </div>
 </div>
  
-    <div className="container-fluid text-center">
+    <div className="container-fluid text-center  bg-dark">
       <div className="row">
         <div className="col-md-3 col-3">
-          <NavLink to="/Kids" className={({isActive})=>`#${isActive ? "text-success" :"text-dark"}h5 text-dark`}>Kids</NavLink>
+          
+          <NavLink to="/Kids" className={({isActive})=> `#${isActive ? "text-dark" :"text-light"} h5 `}> Kids</NavLink>
+          
         </div>
         <div className="col-md-3 col-3">
-          <NavLink to="/mens" className="h5 text-dark">Man's</NavLink>
+
+          <NavLink to="/mens" className={({isActive})=> `#${isActive ? "text-dark" :"text-danger"} h5 `} >Man's</NavLink>
+
         </div>
         <div className="col-md-3 col-3">
-          <NavLink to="/womens" className="h5 text-dark">Womens</NavLink>
+
+          <NavLink to="/womens" className={({isActive})=> `#${isActive ? "text-dark" :"text-danger"} h5 `} >Womens</NavLink>
+
         </div>
         <div className="col-md-3 col-3">
-          <NavLink to="/electronics" className="h5 text-dark">Electrics</NavLink>
+
+          <NavLink to="/electronics" className={({isActive})=> `#${isActive ? "text-dark" :"text-danger"}h5 `}>Electrics</NavLink>
+
         </div>
       </div>
     </div>
