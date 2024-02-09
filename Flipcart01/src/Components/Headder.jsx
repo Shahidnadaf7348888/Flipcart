@@ -1,11 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import KidImg from './IMG/KidImg.png'
+
 const Header = () => {
   return (
     // Search Link 
     <>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
 
     <div className="container-fluide sticky-top bg-light p-3" >
     <div className="row ">
@@ -50,30 +52,42 @@ const Header = () => {
     </div>
 </div>
  
-    <div className="container-fluid text-center  bg-dark">
+    <div className="container-fluid text-center"  style={{backgroundColor : '#AF876D  '}}>
       <div className="row">
-        <div className="col-md-3 col-3">
+        <div className="col-md-2 col-2">
           
-          <NavLink to="/Kids" className={({isActive})=> `#${isActive ? "text-dark" :"text-light"} h5 `}> Kids</NavLink>
+          <NavLink to="" className={({isActive})=> `${isActive ? 'text-dark' : 'text-light'} h5 `} style={{textDecoration : 'none'}}> Home</NavLink>
+          <i class="fa-solid fa-house-chimney p-1" style={{fontSize: "1.5rem"}}></i>
           
         </div>
-        <div className="col-md-3 col-3">
+        <div className="col-md-2 col-2">
+          
+          <NavLink to="/Kids" className={({isActive})=> `${isActive ? 'text-dark' : 'text-light'} h5 `} style={{textDecoration : 'none'}}> Kids</NavLink>
+          <img src={KidImg} alt="" style={{width : "15%"}}/>
+          
+        </div>
+        <div className="col-md-2 col-2">
 
-          <NavLink to="/mens" className={({isActive})=> `#${isActive ? "text-dark" :"text-danger"} h5 `} >Man's</NavLink>
+          <NavLink to="/mens" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} h5 `} style={{textDecoration : 'none'}}>Man's</NavLink>
 
         </div>
-        <div className="col-md-3 col-3">
+        <div className="col-md-2 col-2">
 
-          <NavLink to="/womens" className={({isActive})=> `#${isActive ? "text-dark" :"text-danger"} h5 `} >Womens</NavLink>
+          <NavLink to="/womens" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} h5 `} style={{textDecoration : 'none'}} >Womens</NavLink>
 
         </div>
-        <div className="col-md-3 col-3">
+        <div className="col-md-2 col-2">
 
-          <NavLink to="/electronics" className={({isActive})=> `#${isActive ? "text-dark" :"text-danger"}h5 `}>Electrics</NavLink>
+          <NavLink to="/electronics" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} h5 `} style={{textDecoration : 'none'}}>Electrics</NavLink>
 
         </div>
       </div>
     </div>
+
+
+
+
+
     </>
   );
 }
