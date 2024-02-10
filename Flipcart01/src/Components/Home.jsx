@@ -120,37 +120,7 @@ export default function Home() {
         {/* <!-- ovel carosel CDN   --> */}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
-    
-        {/* <!-- Headder --> */}
-        
-        
-        {/* <!---------------------- carousel  ----------------------> */}
-        
-        <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
-            <div className="carousel-inner">
-              <div className="carousel-item active" data-bs-interval="1500">
-                <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/44aca2d5a1b175ee.jpg?q=20" className="d-block w-100" alt=""/>
-              </div>
-              <div className="carousel-item" data-bs-interval="1500">
-                <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/4cd6690ef44564f3.jpg?q=20" className="d-block w-100" alt=""/>
-              </div>
-              <div className="carousel-item" data-bs-interval="1500">
-                <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/699179052a849b19.jpeg?q=20" className="d-block w-100" alt=""/>
-              </div>
-              <div className="carousel-item" data-bs-interval="1500">
-                <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/ca2843e62171405e.jpg?q=20" className="d-block w-100" alt=""/>
-              </div>
-            </div>
-            <button className="carousel-control-prev " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-contulrol-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Next</span>
-            </button>
-          </div>
-          
+
           {/* <!-- Best Of Electronics  --> */}
         
           <div className="container-fluide p-3 mt-4 bg-light">
