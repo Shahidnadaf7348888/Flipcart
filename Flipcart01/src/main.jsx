@@ -8,6 +8,7 @@ import Man from './Components/Man.jsx'
 import Women from './Components/Women.jsx'
 import Electronic from "./Components/Electronic.jsx";
 import Kids from './Components/Kids.jsx'
+import Mobiles from './Components/Mobiles.jsx'
 
 const router= createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router= createBrowserRouter([
       },{
         path : "/Kids",
         element : <Kids/>
+      }
+      ,{
+        path : "/Mobiles",
+        element : <Mobiles/>
       }
     ]
   }

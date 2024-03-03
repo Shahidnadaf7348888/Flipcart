@@ -34,7 +34,7 @@ import M29 from './IMG/M29.jpg'
 import M30 from './IMG/M30.jpg'
 
 
-const Man = () => {
+const Mobiles = () => {
   return (
   
     <>
@@ -195,4 +195,4 @@ const Man = () => {
   )
 }
 
-export default Man
+export default Mobiles

@@ -11,6 +11,7 @@ import E8 from './IMG/E8.png'
 import E9 from './IMG/E9.png'
 import E10 from './IMG/E10.jpg'
 import E11 from './IMG/E11.jpg'
+import E12 from './IMG/E12.jpg'
 
 // F Section 
 import F1 from './IMG/F1.jpg'
@@ -24,6 +25,7 @@ import F8 from './IMG/F8.webp'
 import F9 from './IMG/F9.jpg'
 import F10 from './IMG/F10.jpg'
 import F11 from './IMG/F11.jpg'
+import F12 from './IMG/F12.jpg'
 
 // G Section 
 import G1 from './IMG/G1.jpg'
@@ -37,6 +39,7 @@ import G9 from './IMG/G9.jpg'
 import G10 from './IMG/G10.jpg'
 import G11 from './IMG/G11.jpg'
 import G13 from './IMG/G13.jpg'
+import G12 from './IMG/G12.jpg'
 
 // H Section 
 
@@ -57,11 +60,12 @@ import L2 from './IMG/L2.jpg'
 import L3 from './IMG/L3.jpg'
 import L4 from './IMG/L4.jpg'
 import L5 from './IMG/L5.jpg'
+import L6 from './IMG/L6.jpg'
 import L7 from './IMG/L7.jpg'
 import L8 from './IMG/L8.jpg'
 import L9 from './IMG/L9.jpg'
 import L11 from './IMG/L11.jpg'
-
+import L13 from './IMG/L13.jpg'
 
 // "IMG/T section
 import T0 from './IMG/T0.jpg'
@@ -75,6 +79,8 @@ import T7 from './IMG/T7.jpg'
 import T8 from './IMG/T8.jpg'
 import T11 from './IMG/T11.jpg'
 import T12 from './IMG/T12.jpg'
+import T13 from './IMG/T13.jpg'
+
 
 // "IMG/S section
 import S0 from './IMG/S0.jpg'
@@ -90,23 +96,6 @@ import S9 from './IMG/S9.jpg'
 
 export default function Home() {
 
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        dots:true,
-        responsive:{
-            0:{
-                items:2
-            },
-            600:{
-                items:4
-            },
-            1000:{
-                items:6
-            }
-        }
-    })
   return (
     <>
 
@@ -117,60 +106,62 @@ export default function Home() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <title>Document</title>
     
-        {/* <!-- ovel carosel CDN   --> */}
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
+  
 
           {/* <!-- Best Of Electronics  --> */}
         
           <div className="container-fluide p-3 mt-4 bg-light">
               <h4>Best of Electronics</h4>
-          <div className="owl-carousel owl-theme pt-3 text-center ">
-            <div className="item card">
+          <div className="row pt-3 text-center ">
+            <div className="col-md-2 card">
                 <img src={E1} className="card-img-top" alt=""/>
                 Camera <br/> <h6>$899</h6>
                 
                 
             </div>
-            <div className="item card">
+            <div className="col-md-2 card">
                 <img src={E2} className="card-body" alt=""/>
                 Apple Monitor <br/> <h6>$1499</h6>
             </div>
-            <div className="item card">
+            <div className="col-md-2 card">
                 <img src={E3} className="card-body" alt=""/>
                 Apple Monitor <br/> <h6>$949</h6>
             </div>
-            <div className="item card">
+            <div className="col-md-2 card">
                 <img src={E4} className="card-body" alt=""/>
                  Monitor <br/> <h6>$989</h6>
             </div>
-            <div className="item card">
+            <div className="col-md-2 card">
                 <img src={E5} className=" card-body" alt=""/>
                 Projector <br/> <h6>from $999</h6>
             </div>
-            <div className="item card">
+            <div className="col-md-2 card">
                 <img src={E6} className="card-body" alt=""/>
                 Scanner <br/> <h6>from $1300</h6>
             </div>
-            <div className="item card">
+            <div className="col-md-2 card">
                 <img src={E7} className="card-body" alt=""/>
                 TeliPhone <br/> <h6>from $390</h6>
             </div>
-            <div className="item card" >
-                <img src={E8} style={{width: "9rem"}} className="card-body" alt=""/>
+            <div className="col-md-2 card" >
+                <img src={E8}  className="card-body" alt=""/>
                 HD Monitor <br/> <h6>from $1499</h6>
             </div>
-            <div className="item card" >
-                <img src={E9} style={{width: "9rem"}} className="card-body" alt=""/>
+            <div className="col-md-2 card" >
+                <img src={E9}  className="card-body" alt=""/>
                 Cannon H46 <br/> <h6>from $989</h6>
             </div>
-            <div className="item card" >
-                <img src={E10} style={{width: "8rem" }}className="card-body" alt=""/>
-                Shaver <br/> <h6>from $490</h6>
+            <div className="col-md-2 card" >
+                <img src={E10} className="card-body" alt=""/>
+                 AC <br/> <h6>from $490</h6>
             </div>
-            <div className="item card" >
-                <img src={E11} style={{width: "9rem"}} className="card-body" alt=""/>
-                Memory Drive <br/> <h6>from $567</h6>
+            <div className="col-md-2 card" >
+                <img src={E11}  className="card-body" alt=""/>
+                 Fan <br/> <h6>from $567</h6>
+            </div>
+            <div className="col-md-2 card" >
+                <img src={E12}  className="card-body" alt=""/>
+                Electric Awane <br/> <h6>from $567</h6>
             </div>
         </div>
         </div>
@@ -179,51 +170,55 @@ export default function Home() {
          
          <div className="container-fluide p-3 mt-4 bg-light">
              <h4>Beautym,Food,Toys & more</h4>
-          <div className="owl-carousel owl-theme pt-3 text-center ">
+          <div className="row pt-3 text-center ">
             
-            <div className="item card  alighn-item-center">
-                <img src={F9} style={{padding: "1.9rem 0"}} className="card-img-top" alt=""/>
+            <div className="col-md-2 card  alighn-item-center">
+                <img src={F9}  className="card-img-top" alt=""/>
                 Headphone <br/> <h6>$99</h6>  
             </div>
-            <div className="item card">
-                <img src={F11} style={{width: "12rem", paddingBottom: "4rem" }} className="card-body" alt=""/>
+            <div className="col-md-2 card">
+                <img src={F11}  className="card-body" alt=""/>
                 Beauty Products <br/> <h6>$250</h6>
             </div>
-            <div className="item card" style={{overflow: "hidden"}}>
-                <img src={F8}  style={{padding: "2rem 0"}} className="card-body" alt=""/>
+            <div className="col-md-2 card" >
+                <img src={F8}   className="card-body" alt=""/>
                 Vegitable <br/> <h6>$130</h6>
             </div>
-            <div className="item card">
-                <img src={F4} style={{padding: "2.1rem 0"}} className="card-body" alt=""/>
+            <div className="col-md-2 card">
+                <img src={F4}  className="card-body" alt=""/>
                  Cycle <br/> <h6>$499</h6>
             </div>
-            <div className="item card">
-                <img src={F5} style={{padding: "2rem 0"}} className=" card-body" alt=""/>
+            <div className="col-md-2 card">
+                <img src={F5}  className=" card-body" alt=""/>
                 Apples <br/> <h6>100</h6>
             </div>
-            <div className="item card">
-                <img src={F6} style={{padding: "2rem 0"}} className="card-body" alt=""/>
+            <div className="col-md-2 card">
+                <img src={F6}  className="card-body" alt=""/>
                 Guitar <br/> <h6>from $1200</h6>
             </div>
-            <div className="item card">
-                <img src={F7} style={{padding: "2.2rem 0"}} className="card-body" alt=""/>
+            <div className="col-md-2 card">
+                <img src={F7}  className="card-body" alt=""/>
                 Teddy Bear <br/> <h6>from $87</h6>
             </div>
-            <div className="item card" style={{overflow: "hidden"}} >
-                <img src={F3} style={{width: "13.6rem "}} className="card-body" alt=""/>
+            <div className="col-md-2 card"  >
+                <img src={F3}  className="card-body" alt=""/>
                 Pen and Books <br/> <h6>from $340</h6>
             </div>
-            <div className="item card" >
+            <div className="col-md-2 card" >
                 <img src={F2}  className="card-body" alt=""/>
                 Nescafe <br/> <h6>from $89</h6>
             </div>
-            <div className="item card" >
+            <div className="col-md-2 card" >
                 <img src={F1}  className="card-body" alt=""/>
                 Dry fruits <br/> <h6>from $190</h6>
             </div>
-            <div className="item card" >
-                <img src={F10} style={{padding: "2rem 0"}} className="card-body" alt=""/>
+            <div className="col-md-2 card" >
+                <img src={F10}  className="card-body" alt=""/>
                 Childern Toys <br/> <h6>from $330</h6>
+            </div>
+            <div className="col-md-2 card" >
+                <img src={F12}  className="card-body" alt=""/>
+                Vision Pro <br/> <h6>from $3030</h6>
             </div>
         </div>
         </div>
@@ -232,50 +227,54 @@ export default function Home() {
         
         <div className="container-fluide p-3 mt-4 bg-light">
             <h4>Sports, Healthcare & more </h4>
-         <div className="owl-carousel owl-theme pt-3 text-center ">
-           <div className="item card  alighn-item-center">
-               <img src={G13} style={{padding: "1.5rem 0"}} className="card-img-top" alt=""/>
+         <div className="row pt-3 text-center ">
+           <div className="col-md-2 card  alighn-item-center">
+               <img src={G13} className="card-img-top" alt=""/>
                8Kg Orange Dumbells  <br/> <h6>$50</h6>  
            </div>
-           <div className="item card">
-               <img src={G1} style={{width: "15rem", padding: "1rem 0px "}} className="card-body" alt=""/>
+           <div className="col-md-2 card">
+               <img src={G1}  className="card-body" alt=""/>
                Yoga Carpet <br/> <h6>$69</h6>
            </div>
-           <div className="item card" style={{overflow: "hidden"}}>
-               <img src={G3} style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
+           <div className="col-md-2 card" >
+               <img src={G3}  className="card-body" alt=""/>
                Drinking bottle <br/> <h6>$59</h6>
            </div>
-           <div className="item card">
-               <img src={G4} style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
+           <div className="col-md-2 card">
+               <img src={G4}  className="card-body" alt=""/>
                 Sport T-Shirt <br/> <h6>$249</h6>
            </div>
-           <div className="item card">
-               <img src={G5} style={{padding: "1.5rem 0"}} className=" card-body" alt=""/>
+           <div className="col-md-2 card">
+               <img src={G5}  className=" card-body" alt=""/>
                Supliment Bottle <br/> <h6>from $110</h6>
            </div>
-           <div className="item card">
-               <img src={G6} style={{padding: "2.2rem 0"}} className="card-body" alt=""/>
+           <div className="col-md-2 card">
+               <img src={G6}  className="card-body" alt=""/>
                Masage Products <br/> <h6>from $549</h6>
            </div>
-           <div className="item card">
-               <img src={G7} style={{padding: "2.9rem 0"}} className="card-body" alt=""/>
+           <div className="col-md-2 card">
+               <img src={G7}  className="card-body" alt=""/>
                Vitamin pills <br/> <h6>from $37</h6>
            </div>
-           <div className="item card" >
-               <img src={G8} style={{width: "10rem"}} className="card-body" alt=""/>
+           <div className="col-md-2 card" >
+               <img src={G8} className="card-body" alt=""/>
               G-Chomanbrash <br/> <h6>from $80</h6>
            </div>
-           <div className="item card" >
-               <img src={G9} style={{padding: ".4rem 0"}} className="card-body" alt=""/>
+           <div className="col-md-2 card" >
+               <img src={G9}  className="card-body" alt=""/>
                Energy Pills <br/> <h6>from $989</h6>
            </div>
-           <div className="item card" >
+           <div className="col-md-2 card" >
                <img src={G10}  className="card-body" alt=""/>
                Mackup Products <br/> <h6>from $100</h6>
            </div>
-           <div className="item card" >
-               <img src={G11} style={{padding: "2rem 0"}} className="card-body" alt=""/>
+           <div className="col-md-2 card" >
+               <img src={G11}  className="card-body" alt=""/>
                Black Dumbells <br/> <h6>from $450</h6>
+           </div>
+           <div className="col-md-2 card" >
+               <img src={G12}  className="card-body" alt=""/>
+                Dumbells <br/> <h6>from $490</h6>
            </div>
         </div>
         </div>
@@ -364,105 +363,113 @@ export default function Home() {
         {/* <!-- Never Before Prices on Fashion --> */}
         <div className="container-fluide p-3 mt-4 bg-light">
             <h4>Never Before Prices on Fashion</h4>
-         <div className="owl-carousel owl-theme pt-3 text-center ">
+         <div className="row pt-3 text-center ">
            
-            <div className="item card ">
-               <img src={L11} style={{padding: "1.5rem 0"}} className="card-img-top" alt=""/>
-               Ladies sandle <br/> <h6>from $230</h6>  
-           </div>
-           
-           <div className="item card">
-               <img src={L8} style={{padding: "1.5rem 0px"}} className="card-body" alt=""/>
-               Cool bagpack <br/> <h6>from $69</h6>
-           </div>
-           <div className="item card" >
-               <img src={L1} style={{width: "7.8rem", margin:" 0 auto " }}className="card-body " alt=""/>
-               Zara Pant <br/> <h6>from $450</h6>
-           </div>
-           <div className="item card">
-               <img src={L2} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
-               red long dress<br/> <h6>from $649</h6>
-           </div>
-           <div className="item card">
-               <img src={L3} style={{padding: ".5rem 0"}} className=" card-body" alt=""/>
-               Red flawer Dress <br/> <h6>from $910</h6>
-           </div>
-           <div className="item card">
-               <img src={L5} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
-              Sun Shine Jewelry<br/> <h6>from $1999</h6>
-           </div>
-           <div className="item card">
-               <img src={L4} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
-                Pearl <br/> <h6>from $8999</h6>
-           </div>
-           <div className="item card" >
-               <img src={L9} style={{padding: "2rem 0"}} className="card-body" alt=""/>
-               short Heals <br/> <h6>from $299</h6>
-           </div>
-           <div className="item card" >
-               <img src={L7} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
-                Jagwar Jeans <br/> <h6>from $499</h6>
-           </div>
-           <div className="item card" >
-               <img src={L0} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
+         <div className="col-md-2 card" >
+               <img src={L0}  className="card-body" alt=""/>
                High Heals <br/> <h6>from $699</h6>
            </div>
-           <div className="item card" >
-               <img src={L8} style={{padding: "2rem 0"}} className="card-body" alt=""/>
+           <div className="col-md-2 card" >
+               <img src={L1} className="card-body " alt=""/>
+               Zara Pant <br/> <h6>from $450</h6>
+           </div>
+           <div className="col-md-2 card">
+               <img src={L2}  className="card-body" alt=""/>
+               red long dress<br/> <h6>from $649</h6>
+           </div>
+           <div className="col-md-2 card">
+               <img src={L3} className=" card-body" alt=""/>
+               Red flawer Dress <br/> <h6>from $910</h6>
+           </div>
+           <div className="col-md-2 card">
+               <img src={L4}  className="card-body" alt=""/>
+                Pearl <br/> <h6>from $8999</h6>
+           </div>
+           <div className="col-md-2 card">
+               <img src={L5}  className="card-body" alt=""/>
+              Sun Shine Jewelry<br/> <h6>from $1999</h6>
+           </div>
+           <div className="col-md-2 card">
+               <img src={L6}  className="card-body" alt=""/>
+              Sun Shine Jewelry<br/> <h6>from $1999</h6>
+           </div>
+           <div className="col-md-2 card" >
+               <img src={L7}  className="card-body" alt=""/>
+                Jagwar Jeans <br/> <h6>from $499</h6>
+           </div>
+           <div className="col-md-2 card" >
+               <img src={L8}  className="card-body" alt=""/>
                Pinky Heals <br/> <h6>from $458</h6>
            </div>
-          
+           <div className="col-md-2 card" >
+               <img src={L9}  className="card-body" alt=""/>
+               short Heals <br/> <h6>from $299</h6>
+           </div>
+           <div className="col-md-2 card pt-4">
+               <img src={L11}  className="card-img-top" alt=""/>
+               Ladies sandle <br/> <h6>from $230</h6>  
+           </div>
+
+           <div className="col-md-2 card">
+               <img src={L13}  className="card-body" alt=""/>
+               Cool bagpack <br/> <h6>from $69</h6>
+           </div>
         </div>
         </div>
         
         {/* <!-- Offer Furniture  --> */}
         <div className="container-fluide p-3 mt-4 bg-light">
             <h4>Offers on Furniture</h4>
-         <div className="owl-carousel owl-theme pt-3 text-center ">
+         <div className="row pt-3 text-center ">
            
-            <div className="item card ">
-               <img src={T1} style={{padding: "1.5rem 0"}} className="card-img-top" alt=""/>
+            <div className="col-md-2 card pt-4 ">
+               <img src={T1}  className="card-img-top" alt=""/>
                Dining Table <br/> <h6>from $1650</h6>  
            </div>
-           <div className="item card">
-               <img src={T2} style={{padding: "1.5rem 0px"}} className="card-body" alt=""/>
+           <div className="col-md-2 card">
+               <img src={T2} className="card-body" alt=""/>
                Soofaa & Smooth Chair <br/> <h6>from $1200</h6>
            </div>
-           <div className="item card" >
-               <img src={T3} style={{padding: "1.4rem 0px"}} className="card-body " alt=""/>
+           <div className="col-md-2 card" >
+               <img src={T3}  className="card-body " alt=""/>
                  Kabad <br/> <h6>from $1450</h6>
            </div>
-           <div className="item card">
-               <img src={T4} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
+           <div className="col-md-2 card">
+               <img src={T4}  className="card-body" alt=""/>
                 Formale Chair <br/> <h6>from $499</h6>
            </div>
-           <div className="item card">
-               <img src={T5} style={{width: "10.7rem"}} className=" card-body" alt=""/>
+           <div className="col-md-2 card">
+               <img src={T5}  className=" card-body" alt=""/>
                Soft Sofa <br/> <h6>from $1910</h6>
            </div>
-           <div className="item card">
-               <img src={T6} style={{width: "10.7rem"}} className="card-body" alt=""/>
+           <div className="col-md-2 card">
+               <img src={T6}  className="card-body" alt=""/>
               Rotating Chair<br/> <h6>from $1499</h6>
            </div>
-           <div className="item card">
-               <img src={T8} style={{padding: "1rem 0"}} className="card-body" alt=""/>
+           <div className="col-md-2 card">
+               <img src={T8}  className="card-body" alt=""/>
                 Fancy Sofa <br/> <h6>from $1999</h6>
            </div>
-           <div className="item card" >
-               <img src={T7} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
+           <div className="col-md-2 card" >
+               <img src={T7}  className="card-body" alt=""/>
               Office Counter <br/> <h6>from $1599</h6>
            </div>
-           <div className="item card" >
-               <img src={T0} style={{padding: "1.4rem 0"}} className="card-body" alt=""/>
+           <div className="col-md-2 card" >
+               <img src={T0}  className="card-body" alt=""/>
                 dubble Bed  <br/> <h6>from $1499</h6>
            </div>
-           <div className="item card" >
-               <img src={T11} style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
+           <div className="col-md-2 card" >
+               <img src={T11}  className="card-body" alt=""/>
                 Single Bed<br/> <h6>from $1099</h6>
            </div>
-           <div className="item card" >
-               <img src={T12} style={{padding: "1.5rem 0"}} className="card-body" alt=""/>
+           <div className="col-md-2 card" >
+               <img src={T12} className="card-body" alt=""/>
                Somooth Pillow <br/> <h6>from $458</h6>
+           </div>
+          
+           <div className="col-md-2 card" >
+               <img src={T13} className="card-body" alt=""/>
+               White Perple <br/> <h6>from $208</h6>
            </div>
           
         </div>

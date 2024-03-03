@@ -13,7 +13,7 @@ const Header = () => {
 
     <div className="container-fluide sticky-top bg-light p-3" >
     <div className="row ">
-        <div className="col-md-2  ">
+        <div className="col-md-2  col-12 d-flex justify-content-center">
           <b className="h3" style={{color : '#147FEA'}}>Flipcart</b>
             <div className="d-flex">
               <b style={{color : '#AEB0B1'}} className='pe-1'>Explore</b><b style={{color :'#F6C314'}}> Plus</b>
@@ -54,38 +54,35 @@ const Header = () => {
     </div>
 </div>
  
-    <div className="container-fluid text-center"  style={{backgroundColor : '#147FEA  '}}>
-      <div className="row">
-        <div className="col-md-2 col-2">
-          
-          <NavLink to="" className={({isActive})=> `${isActive ? 'text-dark' : 'text-light'} p `} style={{textDecoration : 'none'}}> Home</NavLink>
-          <i class="fa-solid fa-house-chimney p-1" style={{fontSize: "1.5rem"}}></i>
-          
-        </div>
-        <div className="col-md-2 col-2">
-          
-          <NavLink to="/Kids" className={({isActive})=> `${isActive ? 'text-dark' : 'text-light'} p `} style={{textDecoration : 'none'}}> Kids</NavLink>
-          <img src={KidImg} alt="" style={{width : "15%"}}/>
-          
-        </div>
-        <div className="col-md-2 col-2">
+    <div className="container-fluid text-center "  style={{backgroundColor : '#147FEA  '}}>       
 
-          <NavLink to="/mens" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} p `} style={{textDecoration : 'none'}}>Man's</NavLink>
-          <img src='https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/da510ab4-189d-4139-3492-0295c15ea900/public' alt="" style={{width : "15%"}} />
-        </div>
-        <div className="col-md-2 col-2">
+    <ul class="nav nav-pills nav-fill " >
+         <li class="nav-item">
+          <NavLink to="" className={({isActive})=> `${isActive ? 'text-dark' : 'text-light'} p nav-link `} style={{textDecoration : 'none'}}> Home</NavLink>
+         </li>
+   
+         <li class="nav-item">
+          <NavLink to="/Kids" className={({isActive})=> `${isActive ? 'text-dark' : 'text-light'} p nav-link `} style={{textDecoration : 'none'}}> Kids</NavLink>
+          </li>
+          
+          <li class="nav-item">
+          <NavLink to="/mens" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} p nav-link `} style={{textDecoration : 'none'}}>Man's</NavLink>
+          </li>
+      
+          <li class="nav-item">
+          <NavLink to="/womens" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} p nav-link `} style={{textDecoration : 'none'}} >Womens</NavLink>
+         </li>
+       
+         <li class="nav-item">
+          <NavLink to="/electronics" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} p nav-link `} style={{textDecoration : 'none'}}>Electrics</NavLink>
+         </li>
 
-          <NavLink to="/womens" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} p `} style={{textDecoration : 'none'}} >Womens</NavLink>
-          <img src={Girlmg} alt="" className='w-25'/>
-        </div>
-        <div className="col-md-2 col-2">
+         <li class="nav-item">
+          <NavLink to="/Mobiles" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} p nav-link `} style={{textDecoration : 'none'}}>Mobile</NavLink>
+         </li>
 
-          <NavLink to="/electronics" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} p `} style={{textDecoration : 'none'}}>Electrics</NavLink>
-          <img src={Table} alt="" className='w-50' />
+          </ul>
         </div>
-      </div>
-    </div>
-
 
 
 
