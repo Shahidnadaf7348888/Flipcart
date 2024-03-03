@@ -43,7 +43,7 @@ const Header = () => {
                 <i className="fa-solid fa-cart-shopping"></i>
                 Cart
             </div>
-            <div className="p-2 ">
+            <div className="p-2  ">
                 <i className="fa-solid fa-calendar-days"></i>
                 Become a Seller
             </div>
