@@ -43,7 +43,7 @@ import W36 from './IMG/W36.jpg'
 const Women = () => {
   return (
     <>
-        <div className="container-fluide text-center p-5">
+        <div className="container-fluide text-center p-2">
         <div className="row">
             <div className="col-md-3 col-6 card p-2 mb-3 ">
                 <img src={W1} className="card-img-top pb-2" alt=""/>

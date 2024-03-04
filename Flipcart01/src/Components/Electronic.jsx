@@ -44,7 +44,7 @@ import EL36 from './IMG/EL36.jpg'
 const Electronic = () => {
   return (
     <>
-        <div className="container-fluide text-center p-5">
+        <div className="container-fluide text-center p-2">
         <div className="row">
             <div className="col-md-3 col-6 card p-2 mb-3 ">
                 <img src={EL1} className="card-img-top pb-2" alt=""/>

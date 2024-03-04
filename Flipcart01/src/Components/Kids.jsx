@@ -1,4 +1,3 @@
-import React from 'react'
 
 // Img Imports 
 import K1 from './IMG/K1.jpg'
@@ -42,7 +41,7 @@ import K36 from './IMG/K36.jpg'
 const Kids = () => {
   return (
     <>
-         <div className="container-fluide text-center p-5">
+         <div className="container-fluide text-center p-2">
         <div className="row">
             <div className="col-md-3 col-6 card p-2 mb-3 ">
                 <img src={K1} className="card-img-top pb-2" alt=""/>
@@ -90,7 +89,7 @@ const Kids = () => {
             </div>
             <div className="col-md-3 col-6 align-items-center card p-2 mb-3 ">
                 <img src={K9} className="card-img-top pb-2 w-75" alt=""/>
-                 Tow Combination <T-shirt></T-shirt> <h6>₹499 <p style={{color: "darkgrey", fontSize: "87%"}}>800</p> <b className="text-success">30% off</b></h6> 
+                 Tow Combination T-Shahir <h6>₹499 <p style={{color: "darkgrey", fontSize: "87%"}}>800</p> <b className="text-success">30% off</b></h6> 
                 <div className="p" style={{fontSize: "86%"}}></div>
             </div>
             <div className="col-md-3 col-6 align-items-center card p-2 mb-3 ">

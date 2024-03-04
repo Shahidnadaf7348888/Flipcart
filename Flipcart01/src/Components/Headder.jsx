@@ -1,9 +1,6 @@
-import React from 'react';
+
 import { NavLink } from 'react-router-dom';
 
-import KidImg from './IMG/KidImg.png'
-import Girlmg from './IMG/GirlImg.png'
-import Table from './IMG/Table.png'
 
 const Header = () => {
   return (
@@ -53,39 +50,35 @@ const Header = () => {
         </div>
     </div>
 </div>
- 
-    <div className="container-fluid text-center "  style={{backgroundColor : '#147FEA  '}}>       
+<div className="container-fluid  " >       
 
-    <ul class="nav nav-pills nav-fill " >
-         <li class="nav-item">
-          <NavLink to="" className={({isActive})=> `${isActive ? 'text-dark' : 'text-light'} p nav-link `} style={{textDecoration : 'none'}}> Home</NavLink>
-         </li>
-   
-         <li class="nav-item">
-          <NavLink to="/Kids" className={({isActive})=> `${isActive ? 'text-dark' : 'text-light'} p nav-link `} style={{textDecoration : 'none'}}> Kids</NavLink>
-          </li>
-          
-          <li class="nav-item">
-          <NavLink to="/mens" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} p nav-link `} style={{textDecoration : 'none'}}>Man's</NavLink>
-          </li>
+<ul className="nav nav-pills nav-fill " >
+     <li className="nav-item">
+      <NavLink to="" className={({isActive})=> `${isActive ?  'text-primery' : 'text-dark'} p nav-link `} style={{textDecoration : 'none'}}> Home</NavLink>
+     </li>
+
+     <li className="nav-item">
+      <NavLink to="/Kids" className={({isActive})=> `${isActive ?  'text-primery' : 'text-dark'} p nav-link `} style={{textDecoration : 'none'}}> Kids</NavLink>
+      </li>
       
-          <li class="nav-item">
-          <NavLink to="/womens" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} p nav-link `} style={{textDecoration : 'none'}} >Womens</NavLink>
-         </li>
-       
-         <li class="nav-item">
-          <NavLink to="/electronics" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} p nav-link `} style={{textDecoration : 'none'}}>Electrics</NavLink>
-         </li>
+      <li className="nav-item">
+      <NavLink to="/mens" className={({isActive})=> `${isActive ?  'text-primery' : 'text-dark'} p nav-link `} style={{textDecoration : 'none'}}> Mans</NavLink>
+      </li>
+  
+      <li className="nav-item">
+      <NavLink to="/womens" className={({isActive})=> `${isActive ?  'text-primery' : 'text-dark'} p nav-link `} style={{textDecoration : 'none'}} >Womens</NavLink>
+     </li>
+   
+     <li className="nav-item">
+      <NavLink to="/electronics" className={({isActive})=> `${isActive ?  'text-primery' : 'text-dark'} p nav-link `} style={{textDecoration : 'none'}}>Electrics</NavLink>
+     </li>
 
-         <li class="nav-item">
-          <NavLink to="/Mobiles" className={({isActive})=> `${isActive ? "text-dark" :"text-light"} p nav-link `} style={{textDecoration : 'none'}}>Mobile</NavLink>
-         </li>
+     <li className="nav-item">
+      <NavLink to="/Mobiles" className={({isActive})=> `${isActive ?  'text-primery' : 'text-dark'} p nav-link `} style={{textDecoration : 'none'}}>Mobile</NavLink>
+     </li>
 
-          </ul>
-        </div>
-
-
-
+      </ul>
+    </div>
 
     </>
   );
